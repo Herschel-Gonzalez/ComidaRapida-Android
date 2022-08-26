@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/gorditas" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:text="@string/platillos"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/btnAgregarPlatillo"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
+                android:background="@color/colorButton"
+                android:onClick="irAagregarPlatillo"
+                android:text="@string/agregar_platillo"
+                android:textSize="18dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/RecyclerId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

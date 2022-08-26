@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Platillo"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/nombrePedidoResumenEmp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cantidad"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/cantidadResumenEmp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cantidad"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precio"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/precioResumenEmp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precio"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha de solicitud"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/fechaSolicitudResumenEmp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha"
+            android:textColor="@color/black">
+
+
+
+        </TextView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha de entrega"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/fEntregaPedidoReportes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha de entrega"
+            android:textColor="@color/black"/>
+
+
+
+
+
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+
+
+
+
+        <Button
+            android:id="@+id/botonOKempleado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:text="OK" />
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

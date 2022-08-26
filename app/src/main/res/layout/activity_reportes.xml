@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/gorditas" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:text="REPORTES"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <Button
+                android:id="@+id/btn_reporte_corte"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:background="@color/colorButton"
+                android:onClick="pantallaRegistro"
+                android:text="Reporte de corte"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <Button
+                android:id="@+id/btn_reporte_pedidos"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:background="@color/colorButton"
+                android:onClick="pantallaRegistro"
+                android:text="Reporte de pedidos"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+
+            <Button
+                android:id="@+id/btn_reporte_usuarios"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:background="@color/colorButton"
+                android:onClick="pantallaRegistro"
+                android:text="Reporte de usuarios"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "428814337880",
+    "project_id": "aplicaciones-7f424",
+    "storage_bucket": "aplicaciones-7f424.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428814337880:android:b325aa3e70ca00f05d072d",
+        "android_client_info": {
+          "package_name": "com.example.gorditasDoniaEsperanza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428814337880-iue6h7hmfnm56nfvgr64fu2o1pobjd7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2IMcObUpUL-k7bgZGpH5px0fGDVTnfKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428814337880-iue6h7hmfnm56nfvgr64fu2o1pobjd7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428814337880:android:02535f2627e0df3b5d072d",
+        "android_client_info": {
+          "package_name": "com.example.gorditasdoniaesperanza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428814337880-iue6h7hmfnm56nfvgr64fu2o1pobjd7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2IMcObUpUL-k7bgZGpH5px0fGDVTnfKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428814337880-iue6h7hmfnm56nfvgr64fu2o1pobjd7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428814337880:android:41b86a107c27af5c5d072d",
+        "android_client_info": {
+          "package_name": "com.gorditasesperanza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428814337880-iue6h7hmfnm56nfvgr64fu2o1pobjd7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2IMcObUpUL-k7bgZGpH5px0fGDVTnfKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428814337880-iue6h7hmfnm56nfvgr64fu2o1pobjd7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

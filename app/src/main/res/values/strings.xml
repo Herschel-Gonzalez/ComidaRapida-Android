@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Gorditas Doña Esperanza</string>
+    <string name="hint_correo">Correo</string>
+    <string name="hint_contrasenia">Contraseña</string>
+    <string name="button_login">Login</string>
+    <string name="bienvenida">¡Bienvenido a Gorditas Doña Esperanza!</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="iniciar_sesion">Iniciar Sesion</string>
+    <string name="registro">REGISTRO</string>
+    <string name="bienvenido_de_nuevo">¡Bienvenido de nuevo!</string>
+    <string name="platillos">Platillos</string>
+    <string name="invalid_mail">Ingrese un correo valido</string>
+    <string name="invalid_password">Ingrese una contrasenia mayor a 6 digitos</string>
+    <string name="agregar_platillo">Agregar platillo</string>
+    <string name="registrar">Registrar</string>
+    <string name="subir_imagen">Subir imagen</string>
+
+
+
+</resources>

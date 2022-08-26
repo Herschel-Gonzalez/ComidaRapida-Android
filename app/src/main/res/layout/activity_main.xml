@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gorditas"/>
+
+    <TextView
+        android:layout_margin="12dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:text="@string/bienvenida"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="12dp"/>
+
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:drawablePadding="12dp"
+        android:textColor="@color/black"
+        android:hint="@string/hint_correo"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etContrasenia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:drawableStart="@drawable/candado"
+        android:drawablePadding="12dp"
+        android:hint="@string/hint_contrasenia"
+        android:textColor="@color/black"
+        android:minHeight="48dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="12dp"/>
+
+    <Button
+        android:id="@+id/btn_iniciarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="@color/colorButton"
+        android:onClick="pantallaRegistro"
+        android:text="@string/iniciar_sesion" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="12dp"/>
+
+    <Button
+        android:id="@+id/btn_registrarse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="@color/colorButton"
+        android:onClick="pantallaRegistro"
+        android:text="@string/registrarse" />
+
+
+
+</LinearLayout>

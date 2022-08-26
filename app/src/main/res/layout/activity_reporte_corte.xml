@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:text="Reporte de corte"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btn_fechaInicioReporteCorte"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_height="wrap_content"
+                android:text="Fecha de inicio"/>
+
+            <Button
+                android:id="@+id/btn_fechaFinReporteCorte"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_height="wrap_content"
+                android:text="Fecha de fin"/>
+
+            <Button
+                android:id="@+id/btn_buscarReporteCorte"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_height="wrap_content"
+                android:text="Buscar"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="120dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total de pedidos completados"
+                android:textSize="18dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+
+
+            <TextView
+                android:id="@+id/totalPedidosrc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="14dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total en pesos acumulado"
+                android:textSize="18dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/totalPesosrc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="14dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <TextView
+                android:id="@+id/vacio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text=""/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

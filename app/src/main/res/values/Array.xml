@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="opciones">
+
+        <item>En preparación</item>
+        <item>Pendiente</item>
+        <item>Completado</item>
+
+    </string-array>
+
+</resources>

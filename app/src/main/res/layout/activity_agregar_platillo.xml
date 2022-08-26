@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/gorditas" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:text="@string/agregar_platillo"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <EditText
+                android:id="@+id/etNombrePla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:drawablePadding="12dp"
+                android:textColor="@color/black"
+                android:hint="Nombre" />
+
+            <EditText
+                android:id="@+id/etIngredientesPla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:drawablePadding="12dp"
+                android:textColor="@color/black"
+                android:hint="Ingredientes" />
+
+            <EditText
+                android:id="@+id/etPrecioPla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:drawablePadding="12dp"
+                android:textColor="@color/black"
+                android:hint="Precio" />
+
+            <EditText
+                android:id="@+id/etDescripcionPla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:drawablePadding="12dp"
+                android:textColor="@color/black"
+                android:hint="Descripcion" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <Button
+                android:id="@+id/botonSubirIamgen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:background="@color/colorButton"
+                android:text="@string/subir_imagen" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <Button
+                android:id="@+id/botonRegistrarPlatillo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:background="@color/colorButton"
+                android:text="@string/registrar" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

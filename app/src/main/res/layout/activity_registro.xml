@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/gorditas" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:text="@string/registro"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <EditText
+                android:id="@+id/etNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:drawablePadding="12dp"
+                android:textColor="@color/black"
+                android:hint="Nombre" />
+
+            <EditText
+                android:id="@+id/etApellidos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:drawablePadding="12dp"
+                android:textColor="@color/black"
+                android:hint="Apellidos" />
+
+            <EditText
+                android:id="@+id/etCalle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:drawablePadding="12dp"
+                android:textColor="@color/black"
+                android:hint="Calle" />
+
+            <EditText
+                android:id="@+id/etNumeroCasa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:drawablePadding="12dp"
+                android:textColor="@color/black"
+                android:hint="Numero de casa" />
+
+            <EditText
+                android:id="@+id/etColonia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:drawablePadding="12dp"
+                android:textColor="@color/black"
+                android:hint="Colonia" />
+
+            <EditText
+                android:id="@+id/etReferencias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:drawablePadding="12dp"
+                android:textColor="@color/black"
+                android:hint="Referencias" />
+
+            <EditText
+                android:id="@+id/etCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:drawableStart="@drawable/ic_baseline_email_24"
+                android:drawablePadding="12dp"
+                android:textColor="@color/black"
+                android:hint="@string/hint_correo" />
+
+            <EditText
+                android:id="@+id/etContrasenia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:drawableStart="@drawable/candado"
+                android:drawablePadding="12dp"
+                android:textColor="@color/black"
+                android:hint="@string/hint_contrasenia" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <Button
+                android:id="@+id/botonRegistrarse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:background="@color/colorButton"
+                android:text="@string/registrarse" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

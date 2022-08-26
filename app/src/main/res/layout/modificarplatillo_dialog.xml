@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textColor="@color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/modNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Nombre" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredientes"
+            android:textColor="@color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/modIngredientes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Ingredientes" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precio"
+            android:textColor="@color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/modPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Precio"
+            android:textColor="@color/black"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripción"
+            android:textColor="@color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/modDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Descripcion" />
+
+        <Button
+            android:id="@+id/botonActualizarImagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="Cambiar imagen">
+
+        </Button>
+
+        <Button
+            android:id="@+id/botonGuardarMod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:text="Guardar" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre del cliente"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+                <TextView
+                    android:id="@+id/nombreClienteResumenPedido"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre"
+                    android:textColor="@color/black">
+
+                </TextView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Direccion"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+                <TextView
+                    android:id="@+id/direccionResumenPedido"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Direccion"
+                    android:textColor="@color/black">
+
+                </TextView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Platillo"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+                <TextView
+                    android:id="@+id/nombrePedidoResumenEmp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre"
+                    android:textColor="@color/black">
+
+                </TextView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cantidad"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/cantidadResumenEmp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cantidad"
+                    android:textColor="@color/black">
+
+                </TextView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Precio"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/precioResumenEmp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Precio"
+                    android:textColor="@color/black">
+
+                </TextView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Comentarios"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/comentariosResumen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="comentarios"
+                    android:textColor="@color/black" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fecha de solicitud"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/fechaSolicitudResumenEmp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fecha"
+                    android:textColor="@color/black">
+
+
+                </TextView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fecha de entrega"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/botonFechaEntrega"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="seleccionar fecha" />
+
+                <Button
+                    android:id="@+id/botonHoraDeEntrega"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="seleccionar hora" />
+
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Estado"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spinnerID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black" />
+
+
+                <Button
+                    android:id="@+id/botonOKempleado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="10dp"
+                    android:text="OK" />
+
+                <Button
+                    android:id="@+id/botonGuardarResumen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="10dp"
+                    android:text="Guardar" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
